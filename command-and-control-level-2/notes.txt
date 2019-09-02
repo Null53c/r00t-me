@@ -1,0 +1,5 @@
+volatility -f ch2.dmp --profile=Win7SP1x86_23418 hivelist
+
+volatility -f ch2.dmp --profile=Win7SP1x86_23418 printkey -o 0x8b21c008 -K 'ControlSet001\Control\ComputerName\ComputerName'
+
+WIN-ETSA91RKCFP
